@@ -90,7 +90,4 @@ Special thanks to [Ultralytics](https://github.com/ultralytics) for making YOLOv
 
 ```
 
----
 
-Let me know if you'd like the `README.md` in raw `.md` file format — I can paste it so you can copy and paste directly into GitHub.
-```
