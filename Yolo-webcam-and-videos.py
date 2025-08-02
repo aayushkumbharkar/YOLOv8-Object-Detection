@@ -4,10 +4,10 @@ import cvzone
 import math
 import time
 
-cap = cv2.VideoCapture(0)# For Webcam
+cap = cv2.VideoCapture(0) # For Webcam
 cap.set(3, 1280)
 cap.set(4, 720)
-# cap = cv2.VideoCapture("bikes.mp4")  # For Video
+cap1 = cv2.VideoCapture("bikes.mp4")  # For Video
 
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
@@ -52,4 +52,5 @@ while True:
     print(fps)
 
     cv2.imshow("Image", img)
+
     cv2.waitKey(1)
